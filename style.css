@@ -623,9 +623,13 @@ textarea{
 .timeline-items{
 	max-width: 1000px;
 	margin:auto;
+  
 	display: flex;
 	flex-wrap: wrap;
 	position: relative;
+}
+.title{
+  margin-bottom: 18px;
 }
 .timeline-items::before{
 	content: '';
